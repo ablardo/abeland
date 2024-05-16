@@ -1,0 +1,31 @@
+{
+  "name": "abeland",
+  "displayName": "abeland",
+  "description": "Dark Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "abeland",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abeland-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/abeland.png",
+  "author": {
+    "name": "Abelardo Amarillas",
+    "email": "abelardo.amarillas@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/ablardo/abeland.git",
+    "type": "git"
+  },
+  "publisher": "abesoftware"
+}
